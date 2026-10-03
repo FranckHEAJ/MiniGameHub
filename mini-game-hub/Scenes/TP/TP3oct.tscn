@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bvyrbgt5pyiil" path="res://Assets/Cars/ambulance.png" id="1_awrih"]
 [ext_resource type="Script" uid="uid://dt2v2bwip5dxj" path="res://Scripts/tp_3_oct.gd" id="1_do4nd"]
+[ext_resource type="Texture2D" uid="uid://c24ghtp2ct0he" path="res://Assets/Cars/buggy.png" id="3_hkn2s"]
 
 [node name="Root" type="Node2D" unique_id=1556220483]
 script = ExtResource("1_do4nd")
@@ -9,3 +10,7 @@ script = ExtResource("1_do4nd")
 [node name="Ambulance" type="Sprite2D" parent="." unique_id=316288755]
 position = Vector2(208, 215)
 texture = ExtResource("1_awrih")
+
+[node name="Buggy" type="Sprite2D" parent="." unique_id=1404160946]
+position = Vector2(203, 248)
+texture = ExtResource("3_hkn2s")
