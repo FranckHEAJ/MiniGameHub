@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dv4h05c1yrbkc"]
+
+[ext_resource type="Texture2D" uid="uid://bvyrbgt5pyiil" path="res://Assets/Cars/ambulance.png" id="1_awrih"]
+[ext_resource type="Script" uid="uid://dt2v2bwip5dxj" path="res://Scripts/tp_3_oct.gd" id="1_do4nd"]
+
+[node name="Root" type="Node2D" unique_id=1556220483]
+script = ExtResource("1_do4nd")
+
+[node name="Ambulance" type="Sprite2D" parent="." unique_id=316288755]
+position = Vector2(208, 215)
+texture = ExtResource("1_awrih")
